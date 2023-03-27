@@ -2,17 +2,37 @@
 
 ## **Homework**
 
-**Read:**
+### **Read:**
 
-- [12 HTML/CSS Lessons](https://learn.shayhowe.com/html-css/)
-- [Learn CSS Layout](https://learnlayout.com/)
+[Learn to Code HTML & CSS](https://learn.shayhowe.com/html-css/)
+
+  <details>
+  <summary>Lessons</summary>
+
+- [x] Lesson 1
+- [x] Lesson 2
+- [ ] Lesson 3
+- [ ] Lesson 4
+- [ ] Lesson 5
+- [ ] Lesson 6
+- [ ] Lesson 7
+- [ ] Lesson 8
+- [ ] Lesson 9
+- [ ] Lesson 10
+- [ ] Lesson 11
+- [ ] Lesson 12
+
+</details>
+
+[Learn CSS Layout](https://learnlayout.com/)
 
 **Build:**
 
-- HTML files for the following website screenshots:
-  - [BBC](./built-site-images/bbc-image.png)
-  - [Khan Acadamy](./built-site-images/khan-academy.png)
-  - [TechCunch](./built-site-images/techcrunch.png)
+HTML files for the following website screenshots:
+
+- [ ] [BBC](build-site-images\bbc-image.png)
+- [ ] [Khan Acadamy](build-site-images/khan-academy.png)
+- [ ] [TechCunch](build-site-images/techcrunch.png)
 
 **Resources:**
 
