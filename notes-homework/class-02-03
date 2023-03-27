@@ -1,0 +1,79 @@
+# Class 02-03
+
+## **Homework**
+
+**Read:**
+
+- [12 HTML/CSS Lessons](https://learn.shayhowe.com/html-css/)
+
+**Build:**
+
+- HTML files for the following website screenshots:
+  - [BBC](./built-site-images/bbc-image.png)
+  - [Khan Acadamy](./built-site-images/khan-academy.png)
+  - [TechCunch](./built-site-images/techcrunch.png)
+
+**Resources:**
+
+- [Mozzila Developer Designer (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+
+## **Notes**
+
+### Heading Elements
+
+```
+<h1> heading 1 </h1>
+<h2> heading 2 </h2>
+<h3> heading 3 </h3>
+<h4> heading 4 </h4>
+<h5> heading 5 </h5>
+<h6> heading 6 </h6>
+```
+
+### Other Text Elements
+
+```
+<p> paragraph </p>
+<span> short text </span>
+<pre> preserves whitespace </pre>
+<em> accessibility emphasis </em>
+<strong> accessibility importance </strong>
+<li> list (usually in an ol or ul) <li>
+```
+
+### Ordered & Unorderd Lists
+
+```
+<ol>
+  <li> Item 1 </li>
+</ol>
+
+<ul>
+  <li> Item 1 </li>
+</ul>
+```
+
+### Navigation
+
+```
+<nav>
+  <ul>
+    <li><a href="news.html">News</a></li>
+    <li><a href="sports.html">Sports</a></li>
+    <li><a href="weather.html">Weather</a></li>
+  </ul>
+</nav>
+```
+
+### Forms
+
+Used to collect input from user. Input tags are self closing and have a type
+
+```
+<form action="confirmation.html" method="post">
+    <label for="zebra">First Name:</label>
+    <input id="zebra", type="text">
+    <input type="tel">
+    <input type="email">
+</form>
+```
