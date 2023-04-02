@@ -1,4 +1,4 @@
-# Class 02-03
+# Class 03
 
 ## **Homework**
 
@@ -10,14 +10,7 @@
 - [x] Lesson 2
 - [x] Lesson 3
 - [x] Lesson 4
-- [ ] Lesson 5
-- [ ] Lesson 6
-- [ ] Lesson 7
-- [ ] Lesson 8
-- [ ] Lesson 9
-- [ ] Lesson 10
-- [ ] Lesson 11
-- [ ] Lesson 12
+- [x] Lesson 5
 
 [Learn CSS Layout](https://learnlayout.com/)
 
@@ -25,7 +18,7 @@
 
 HTML files for the following website screenshots:
 
-- [ ] [BBC](build-site-images\bbc-image.png)
+- [x] [BBC](build-site-images\bbc-image.png)
 - [x] [Khan Acadamy](build-site-images/khan-academy.png)
 - [x] [TechCunch](build-site-images/techcrunch.png)
 
@@ -37,41 +30,42 @@ HTML files for the following website screenshots:
 
 ### Heading Elements
 
-```
-<h1> heading 1 </h1>
-<h2> heading 2 </h2>
-<h3> heading 3 </h3>
-<h4> heading 4 </h4>
-<h5> heading 5 </h5>
-<h6> heading 6 </h6>
+```html
+<h1>heading 1</h1>
+<h2>heading 2</h2>
+<h3>heading 3</h3>
+<h4>heading 4</h4>
+<h5>heading 5</h5>
+<h6>heading 6</h6>
 ```
 
 ### Other Text Elements
 
-```
-<p> paragraph </p>
+```html
+<p>paragraph</p>
 <span> short text </span>
 <pre> preserves whitespace </pre>
 <em> accessibility emphasis </em>
 <strong> accessibility importance </strong>
-<li> list (usually in an ol or ul) <li>
+<li>list (usually in an ol or ul)</li>
+<li></li>
 ```
 
 ### Ordered & Unorderd Lists
 
-```
+```html
 <ol>
-  <li> Item 1 </li>
+  <li>Item 1</li>
 </ol>
 
 <ul>
-  <li> Item 1 </li>
+  <li>Item 1</li>
 </ul>
 ```
 
 ### Navigation
 
-```
+```html
 <nav>
   <ul>
     <li><a href="news.html">News</a></li>
@@ -85,11 +79,21 @@ HTML files for the following website screenshots:
 
 Used to collect input from user. Input tags are self closing and have a type
 
-```
+```html
 <form action="confirmation.html" method="post">
-    <label for="zebra">First Name:</label>
-    <input id="zebra", type="text">
-    <input type="tel">
-    <input type="email">
+  <label for="zebra">First Name:</label>
+  <input id="zebra" , type="text" />
+  <input type="tel" />
+  <input type="email" />
 </form>
 ```
+
+### Positioning Content
+
+Positioning with floats
+
+Positioning with inline-block
+
+Creating reusable layouts
+
+Uniquley positioning elments

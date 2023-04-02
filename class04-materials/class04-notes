@@ -1,0 +1,148 @@
+# Class 04
+
+## **Homework**
+
+1. Finish tutorial ["Learn to Code HTML & CSS"](https://learn.shayhowe.com/html-css/)
+
+   - [ ] Lesson 6
+   - [ ] Lesson 7
+   - [ ] Lesson 8
+   - [ ] Lesson 9
+   - [ ] Lesson 10
+   - [ ] Lesson 11
+   - [ ] Lesson 12
+
+2. Read [CSS Layout](https://learnlayout.com/)
+
+3. Create HTML & CSS files for["simple-site-lab"](simple-site-lab.png)<br>
+   _(use type selectors only, no class or id yet)_
+
+4. Update Flashcards
+
+## **Resources**
+
+- [Mozzila Developer Designer (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+
+## **Notes**
+
+### Using CSS
+
+- Link to the CSS file in the head of the HTML
+
+```html
+<link rel="stylesheet" href="css/style.css" />
+```
+
+### CSS Syntax
+
+- Styles content we wrote in HTML using "rules"
+- Rules broken into Selectors and Decleration block
+  - Decleration block broken into declerations
+  - Declerations broken into properties and values
+
+```css
+p {
+  color: red;
+  font-weight: bold;
+}
+```
+
+### Reading CSS
+
+- Read top to bottom, as you go down the Cascare what is below overwrites what's on top
+
+### Colors
+
+- keyword, hex, rgba, hsla
+- alpha channel "a" in rgb and hsl is for transparency
+
+```css
+h1 {
+  color: rgba(255, 0, 0, 1);
+}
+```
+
+## Fonts
+
+- browsers have basic fonts, for anything special you need to provide the font file in your html head
+- google fonts is good to use
+
+```html
+<head>
+  <link href="google font link" rel="stylesheets" />
+</head>
+```
+
+```css
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: ;
+}
+```
+
+### Selectors
+
+#### Selecting by relationship
+
+- Direct Child: selects direct child within parent (uses > symbol)
+  - parent > child
+- Parent Child: selects ever child within parent (uses white space)
+  - parent child
+- Sibling: selects direct sibling (uses + symbol)
+  - prev_sibling + next_sibling
+
+```css
+/* indirect */
+section p {
+  color: red;
+}
+
+/* direct */
+section > p {
+  color: red;
+}
+
+/* sibling */
+p + p {
+  color: red;
+}
+```
+
+#### ID Selectors
+
+- used for selecting distinct elements
+  - #idName
+
+```css
+#zebra {
+  color: red;
+}
+```
+
+#### Class Selectors
+
+- used for selecting multiple elements
+  - .className
+
+```css
+.zebra {
+  color: red;
+}
+```
+
+#### Specificty
+
+Higher specificity rules overwrite lower specificity rules
+
+- type/tag - 1pt
+- class - 10pt
+- id - 100pt
+- inline or !important - 1000pt
+
+\*Don't use inline styling, this will make it difficult to overwrite cascading css
+
+```css
+.selector {
+  color: red !important;
+}
+```
