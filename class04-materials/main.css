@@ -1,0 +1,89 @@
+/*
+  ========================================
+  Custom styles
+  ========================================
+*/
+
+body {
+  background-color: #87ceeb;
+  border: 6px solid #48cd31;
+  color: white;
+  padding: 4%;
+  margin: 5%;
+}
+/*
+  ========================================
+  Navigation
+  ========================================
+*/
+nav {
+  text-align: center;
+}
+
+a {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+a + a {
+  border-left: 3px solid grey;
+  padding-left: 10px;
+}
+
+/*
+  ========================================
+  Header
+  ========================================
+*/
+
+h1 {
+  font-style: italic;
+  text-align: center;
+  font-size: 42px;
+}
+
+header a + a {
+  text-decoration: underline;
+  color: #48cd31;
+}
+
+/*
+  ========================================
+  Content
+  ========================================
+*/
+
+h2 {
+  font-weight: bold;
+  font-size: 36px;
+}
+
+p {
+  font-size: 24px;
+}
+
+/*
+  ========================================
+  Image
+  ========================================
+*/
+
+img {
+  float: right;
+  height: 300px;
+  width: 225px;
+  margin: 20px;
+}
+
+/*
+  ========================================
+  Header
+  ========================================
+*/
+
+footer a {
+  color: #48cd31;
+  text-decoration: underline;
+}
