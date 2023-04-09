@@ -2,34 +2,37 @@
 
 ## **Homework**
 
-### Finish tutorial ["Learn to Code HTML & CSS"](https://learn.shayhowe.com/html-css/)
+### Take typing test [5 min test](https://www.typingtest.com/)
 
-- [x] L
-
+- [ ] Completed
       <br>
       <br>
 
-### Read [CSS Layout](https://learnlayout.com/)
+### Practice Typing [Keybr](https://www.keybr.com/)
 
-- [x] C
+- [ ] Completed
       <br>
       <br>
 
-### Create HTML & CSS files for ["simple-site-lab"](simple-site-lab.png)<br>
+### Finish CSS for Rhino [Specificity-Practice](specificity-practice/css/style.css)
 
-_(use type selectors only, no class or id yet)_
-
-- [x] Simple-Site-Lab
+- [ ] Completed
       <br>
       <br>
 
-### Update Flashcards
+### Read [Responsive Web Design](https://learn.shayhowe.com/advanced-html-css/responsive-web-design/)
 
-- [x] Flascards
+- [x] Completed
       <br>
       <br>
 
 ---
+
+### Make 3 Layouts
+
+- [ ] Completed
+      <br>
+      <br>
 
 ## **Resources**
 
@@ -41,10 +44,28 @@ _(use type selectors only, no class or id yet)_
 
 ## **Notes**
 
-### Using
+### The Box Model
 
-- Link
+- Width, Height, Padding, Border
 
-```html
+### Layouts
 
+- Floats
+  - they try to go as far to the top corner as possible
+  - they "float up 3D" and everything below moves up
+  - really need to CLEAR after you use it!
+- Clear Floats
+  - Use clear property in CSS on element that comes after the float
+
+```css
+clear: both;
+```
+
+- Box-Sizing: border-box
+  - Tells browser to ignore borders when calculating width
+
+```css
+* {
+  box-sizing: border-box;
+}
 ```
