@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+header,
+footer {
+  height: 100px;
+  border: 2px solid grey;
+  clear: both;
+}
+
+.col-3 section {
+  border: 1px solid grey;
+  height: 150px;
+  width: 33.333%;
+  float: left;
+}
+
+.col-2 section {
+  border: 1px solid grey;
+  height: 250px;
+  width: 50%;
+  float: left;
+}

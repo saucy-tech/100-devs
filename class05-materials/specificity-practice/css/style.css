@@ -20,6 +20,6 @@ html
 }
 
 /* Please select Rhino with the highest level of specificity possible */
-#rhino h2.africa.fourLegs {
+html > body > h1#hi + section.top h2.africa.fourLegs#rhino {
   color: lime !important;
 }
