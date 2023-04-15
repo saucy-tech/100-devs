@@ -2,11 +2,20 @@
 
 ## **Homework**
 
-### TBD [tbd](tbd)
+### Read [Advanced HTML & CSS](https://learn.shayhowe.com/advanced-html-css/)
 
-- [] Completed
-  <br>
-  <br>
+- [ ] Lesson 1
+- [ ] Lesson 2
+- [ ] Lesson 3
+- [x] Lesson 4
+- [ ] Lesson 5
+- [ ] Lesson 6
+- [ ] Lesson 7
+- [ ] Lesson 8
+- [ ] Lesson 9
+- [ ] Lesson 10
+      <br>
+      <br>
 
 ---
 
@@ -19,10 +28,25 @@
 
 ## **Notes**
 
-### The Box Model
+### CSS Selectors
 
-- Width, Height, Padding, Border
+- IDs
+  - unique identifiers, target 1 element
+- Classes
+  - multiple with same value
+
+```html
+<p id="zebra" class="animals">Welcome to our Zoo!</p>
+```
+
+### Media Queries
+
+- Rules that apply to certain screen sizes
 
 ```css
-
+@media screen and (max-width: 800px) {
+  section {
+    background: blue;
+  }
+}
 ```

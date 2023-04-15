@@ -2,6 +2,24 @@
   box-sizing: border-box;
 }
 
+@media all and (max-width: 800px) {
+  header,
+  footer {
+    background: red;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  section.col-3 {
+    background: green;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  section.col-2 {
+    background: blue;
+  }
+}
 header,
 footer {
   height: 100px;
@@ -9,14 +27,14 @@ footer {
   clear: both;
 }
 
-.col-3 section {
+section.col-3 {
   border: 1px solid grey;
   height: 150px;
   width: 33.333%;
   float: left;
 }
 
-.col-2 section {
+section.col-2 {
   border: 1px solid grey;
   height: 250px;
   width: 50%;

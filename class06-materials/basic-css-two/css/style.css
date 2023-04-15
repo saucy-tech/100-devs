@@ -1,7 +1,37 @@
-/* Please make the anchor tags gold, 20px, and have a purple background */
+/* Please make the anchor tags gold, 20px, 
+and have a purple background */
 
-/* Please make the section have a height of 200px, a 10px thick blue border, and a light orange background */
+a {
+  background: #800080;
+  color: #9e8b1e;
+  font-size: 20px;
+}
 
-/* Please make the aside have a height of 300px, a thin red border, and a teal background  */
+/* Please make the section have a height of 200px, 
+a 10px thick blue border, and a light orange background */
 
-/* Please make the aside paragraph have white text, 18px, and a red underline */
+section {
+  height: 200px;
+  border: 10px solid #0000ff;
+  background: #ffa6005b;
+}
+
+/* Please make the aside have a height of 300px, 
+a thin red border, and a teal background  */
+
+aside {
+  height: 300px;
+  border: 2px solid #ff0000;
+  background: teal;
+}
+
+/* Please make the aside paragraph have white text, 
+18px, and a red underline */
+aside p {
+  color: white;
+  font-size: 18px;
+  border-bottom: 2px solid red;
+  text-align: center;
+  box-sizing: border-box;
+  padding-bottom: 10px;
+}

@@ -9,8 +9,16 @@ span {
   display: inline-block;
   width: 50px;
   height: 50px;
-  margin: 2%;
+  margin: 3%;
   padding-top: 25px;
   border: solid black;
   text-align: center;
+}
+
+p {
+  border: 2px dashed black;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  background: linear-gradient(to right top, white 30%, yellow, orange, red);
 }
