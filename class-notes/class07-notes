@@ -1,0 +1,52 @@
+# Class 07
+
+## **Homework**
+
+### Read [Advanced HTML & CSS](https://learn.shayhowe.com/advanced-html-css/)
+
+- [x] Lesson 1
+- [x] Lesson 2
+- [x] Lesson 3
+- [x] Lesson 4
+- [x] Lesson 5
+- [x] Lesson 6
+- [x] Lesson 7
+- [x] Lesson 8
+- [x] Lesson 9
+- [x] Lesson 10
+      <br>
+      <br>
+
+---
+
+## **Resources**
+
+- <br>
+  <br>
+
+---
+
+## **Notes**
+
+### CSS Selectors
+
+- IDs
+  - unique identifiers, target 1 element
+- Classes
+  - multiple with same value
+
+```html
+<p id="zebra" class="animals">Welcome to our Zoo!</p>
+```
+
+### Media Queries
+
+- Rules that apply to certain screen sizes
+
+```css
+@media screen and (max-width: 800px) {
+  section {
+    background: blue;
+  }
+}
+```
