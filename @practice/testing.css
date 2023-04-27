@@ -1,3 +1,29 @@
-span {
-  border-bottom: 1px solid grey;
+.header {
+  height: auto;
+  width: auto;
+}
+
+.container {
+  display: flex;
+  height: auto;
+  width: auto;
+  justify-content: space-around;
+  border: 1px solid red;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: space-between;
+}
+
+div {
+  height: 75px;
+  width: 75px;
+  border: 1px solid grey;
+  text-align: center;
+  line-height: 75px;
+  margin: 15px;
+}
+
+div + .header {
+  height: 50px;
+  line-height: 50px;
 }
