@@ -1,0 +1,92 @@
+# Class 08
+
+## **Homework**
+
+### Bulid class layouts[]()
+
+- [x] Techcrunch
+- [x] Khan
+- [ ] BBC
+      <br>
+      <br>
+
+### Bulid homework layouts with media queries[]()
+
+- [ ] Techcrunch
+- [ ] Khan
+- [ ] BBC
+      <br>
+      <br>
+
+---
+
+## **Resources**
+
+Dribble
+
+- <br>
+  <br>
+
+---
+
+## **Notes**
+
+### Networking
+
+- Make 3 new connections a week, have 2 coffee chats
+- Normal Follow-Up Schedule
+  - Day 1 - Meet person (learn something unique or a passion they have)
+  - Day 2 - Email them thank you and provide value for their passion
+  - Day 4 - LinkedIn add and message, remind how you meet and thanks again I want to stay in touch hope to see you at the next meetup
+  - Day 6 - Twitter
+- Coffee Chat Schedule
+  - Week 1 - Follow up email (You are where I'd like to be in a few years, would you be open to 15min chat about to learn a little bit about how you got there and your experiences?)
+  - Week 2 - Follow up email
+  - Week 4 - Last email
+- Google Alerts (https://www.google.com/alerts#)
+  - Create alerts for people and topics, when something new contact themGrant
+
+### Reponsive Web Design
+
+#### What makes a site responsive?
+
+- Fluid
+  - Everything as a percentage
+- Elastic
+  - EMs & REM (root EMs)
+  - EMs get their styling from the closest parent
+  - REMS get their styling from the root element (html)
+  - Make 1 change and everything responds (font size)
+- Content Decisions
+  - What do you want user to see at this size?
+  - Mobile-first is good idea
+
+```css
+html {
+  font-size: 62.5%;
+}
+section {
+  font-size: 10px;
+}
+p {
+  font-size: 1rem;
+}
+```
+
+- Content Decisions
+  - At this size, what should they see?
+  - Best practice: start mobile first
+
+```css
+@media screen and (max-width: 600px) {
+  h1 {
+    background: blue;
+  }
+}
+```
+
+### **Add to HTML Head**
+
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+```
