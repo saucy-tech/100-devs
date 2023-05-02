@@ -5,38 +5,79 @@
 
 /* Clear fix hack */
 .clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
 }
 
 .clear {
-	clear: both;
+  clear: both;
 }
 
 /******************************************
 /* BASE STYLES
 /*******************************************/
 
-body {
-
-}
-
-
 /******************************************
-/* LAYOUT
+/* HEADER
 /*******************************************/
 header {
-
+  height: 50px;
+  background: black;
 }
 
-footer {
-
+nav * {
+  float: left;
+  width: 10%;
+  display: block;
+  text-decoration: none;
 }
 
+nav a {
+  color: white;
+}
+
+nav img {
+  width: 5%;
+}
+
+nav ul {
+  width: 50%;
+}
+
+nav form input {
+  width: 100%;
+}
+
+/******************************************
+/* MAIN
+/*******************************************/
+
+main section + section {
+  width: 50%;
+  float: left;
+}
+
+/* main section {
+  background-image: url("assets/agreement.jpg");
+} */
+
+main section + section > section {
+  width: 50%;
+  float: left;
+  background-image: url("assets/flag.jpg");
+}
+
+/******************************************
+/* SECTION
+/*******************************************/
+main + section > section {
+  width: 33.333%;
+  float: left;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
