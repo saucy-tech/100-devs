@@ -1,0 +1,190 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body * {
+  font-family: "Courier New", Courier, monospace;
+  color: #304659;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+/******************************************
+/* NAV
+/*******************************************/
+header {
+  background: #f5f9fc;
+  height: 75px;
+}
+
+nav * {
+  float: left;
+  display: block;
+  width: 25%;
+  padding: 1% 1%;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+ul.nav-links {
+  width: 50%;
+  padding-top: 1%;
+}
+
+.nav-links li {
+  width: 25%;
+  text-align: center;
+}
+
+.nav-links a {
+  width: 100%;
+}
+
+.button {
+  float: right;
+  background: #304659;
+  color: white;
+  text-align: center;
+  width: 100px;
+  margin: 1% 1%;
+  padding: 1% 1%;
+}
+
+/******************************************
+/* MAIN
+/*******************************************/
+main {
+  background: #f5f9fc;
+  height: 750px;
+}
+
+main * {
+  float: left;
+  display: block;
+}
+
+.tagline span {
+  text-transform: uppercase;
+}
+
+.tagline,
+.image {
+  width: 50%;
+  padding-left: 10%;
+}
+
+input#submit {
+  background: navy;
+  color: white;
+  padding: 0 15px;
+}
+
+input#search {
+  background: lightgray;
+}
+
+.container-features {
+  padding: 0 3%;
+}
+
+.feature {
+  width: 25%;
+  padding-top: 10%;
+}
+
+.feature span {
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding-top: 75px;
+  display: block;
+  margin-left: -15%;
+}
+
+.feature a {
+  font-weight: 600;
+  font-size: 1.1rem;
+  text-align: left;
+}
+
+/******************************************
+/* BOTTOM
+/*******************************************/
+
+.col-60 {
+  width: 50%;
+  padding: 3% 3%;
+}
+
+.col-60 h1 {
+  font-weight: 900;
+  font-size: 2.5rem;
+}
+
+.blue-box {
+  background: #f5f9fc;
+  height: 200px;
+  margin: 3% 3%;
+}
+
+/******************************************
+/* MOBILE
+/*******************************************/
+
+@media screen and (max-width: 500px) {
+  nav ul,
+  a.button {
+    display: none;
+  }
+
+  body {
+    margin: 0 1%;
+  }
+
+  nav a.logo {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid grey;
+  }
+
+  section.tagline {
+    width: 100%;
+    text-align: justify;
+    padding-left: 0;
+  }
+
+  input#search,
+  input#submit {
+    width: 100%;
+  }
+}
