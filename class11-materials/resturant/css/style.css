@@ -1,0 +1,86 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body * {
+  font-family: "Roboto", sans-serif;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  background: rgb(241, 247, 250);
+}
+
+/******************************************
+/* NAV BAR
+/*******************************************/
+
+nav {
+  display: flex;
+  height: 500px;
+}
+
+.main-nav,
+.main-nav-icons {
+  width: 50%;
+  height: 50px;
+  background-color: lightgray;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+/* nav a {
+  height: auto;
+  font-size: 0.75rem;
+  font-weight: 600;
+} */
+/******************************************
+/* MAIN
+/*******************************************/
+
+main h1 {
+  padding: 8% 0 1% 5%;
+  margin: 0;
+}
+
+main form {
+  padding-left: 5%;
+}
+
+.socials li {
+  font-weight: 600;
+  float: left;
+  padding: 0 2%;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

@@ -1,37 +1,37 @@
-# Class 10
+# Class 10-11
 
 ## **Homework**
 
-- [ ] Resturant
-- [ ] Salon
-- [ ] [Flexbox in 20mins - Traversy](https://www.youtube.com/watch?v=JJSoEo8JSnc)
-- [ ] [Flexbox Crash Course - Traversy](https://www.youtube.com/watch?v=3YW65K6LcIA)
-- [ ] Khan - Flexbox
-- [ ] BBC - Flexbox
-
-#### Optional
-
-- [ ] [Read FlexBox Tutorial](https://www.freecodecamp.org/news/css-flexbox-tutorial-with-cheatsheet/)
-- [ ] [HTML Crash Course - Traversy](https://www.youtube.com/watch?v=UB1O30fR-EE&list=PLillGF-RfqbYeckUaD1z6nviTp31GLTH8&index=1&pp=iAQB)
-- [ ] [HTML Course - BroCode](https://www.youtube.com/watch?v=HD13eq_Pmp8&list=PLZPZq0r_RZOPP5Yjt6IqgytMRY5uLt4y3&index=1&pp=iAQB)
-- [ ] [CSS Crash Course - Traversy](https://www.youtube.com/watch?v=yfoY53QXEnI&list=PLillGF-RfqbYeckUaD1z6nviTp31GLTH8&index=2&pp=iAQB)
-- [ ] [CSS Course - BroCode](https://www.youtube.com/watch?v=wRNinF7YQqQ&list=PLZPZq0r_RZOPP5Yjt6IqgytMRY5uLt4y3&index=2&pp=iAQB)
+- [x] Watch [HTML Traversy](https://www.youtube.com/watch?v=UB1O30fR-EE&list=PLillGF-RfqbYeckUaD1z6nviTp31GLTH8&index=1&pp=iAQB)
+- [x] Watch [CSS Traversy](https://www.youtube.com/watch?v=yfoY53QXEnI&list=PLillGF-RfqbYeckUaD1z6nviTp31GLTH8&index=2&pp=iAQB)
+- [ ] Watch [HTML BroCode](https://www.youtube.com/watch?v=HD13eq_Pmp8&list=PLZPZq0r_RZOPP5Yjt6IqgytMRY5uLt4y3&index=1&pp=iAQB)
+- [ ] Watch [CSS BroCode](https://www.youtube.com/watch?v=wRNinF7YQqQ&list=PLZPZq0r_RZOPP5Yjt6IqgytMRY5uLt4y3&index=2&pp=iAQB)
+- [ ] Read [Read FlexBox Tutorial](https://www.freecodecamp.org/news/css-flexbox-tutorial-with-cheatsheet/)
+- [ ] Play [Flexbox Zombies](https://mastery.games/flexboxzombies/)
+- [ ] Watch [Flexbox in 20mins - Traversy](https://www.youtube.com/watch?v=JJSoEo8JSnc)
+- [ ] Watch [Flexbox Crash Course - Traversy](https://www.youtube.com/watch?v=3YW65K6LcIA)
+- [ ] Build "Level 1"
+- [ ] Build "Level 2"
+- [ ] Build "Resturant"
+- [ ] Build "Salon"
+- [ ] Watch [JavaScript Crash Course - Traversy](https://youtu.be/hdI2bqOjy3c)
 
 ---
 
 ## **Resources**
 
-Dribble
-
-- <br>
-  <br>
-
 ---
 
 ## **Notes**
 
-### Section 1
+### FlexBox!
+
+-Add `display: flex` to each container when you want its children to stack
 
 ```css
-
+@media all and (max-width: 600px) {
+  h1 {
+    color: blue;
+  }
+}
 ```
