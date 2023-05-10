@@ -1,0 +1,131 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+li {
+  list-style: none;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  background: lightblue;
+}
+
+p {
+  text-align: center;
+}
+
+/******************************************
+/* NAV
+/*******************************************/
+nav ul,
+.logo,
+.donate {
+  flex-basis: 33%;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  justify-content: space-around;
+}
+
+/******************************************
+/* SECTIONS
+/*******************************************/
+.section-feature {
+  background: lightblue;
+}
+
+.section-grey {
+  background: lightgray;
+}
+
+.section-feature,
+.section-why,
+.section-white {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5% 20%;
+}
+
+.section-grey {
+  display: flex;
+  justify-content: space-around;
+}
+
+.section-grey section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 5% 10%;
+}
+
+.section-white {
+  padding: 5% 30%;
+}
+
+/******************************************
+/* FOOTER
+/*******************************************/
+footer {
+  background: lightblue;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 100%;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  padding-left: 2%;
+}
+
+.footer-left ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  padding-right: 2%;
+}
+
+.footer-right p {
+  text-align: left;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}

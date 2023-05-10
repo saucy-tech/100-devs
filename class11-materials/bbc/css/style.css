@@ -20,7 +20,9 @@
 /******************************************
 /* BASE STYLES
 /*******************************************/
-
+li {
+  list-style: none;
+}
 body {
 }
 
@@ -29,25 +31,56 @@ body {
 /*******************************************/
 nav,
 ul,
-main {
+main,
+.welcome,
+.mainFeature,
+.mainSecondary,
+.featured,
+.featureStories {
   display: flex;
   justify-content: space-around;
-}
-ul {
-  flex-basis: 60%;
-}
-main section {
-  flex-basis: 48%;
-}
-main section + section {
-  display: flex;
+  align-items: center;
   flex-wrap: wrap;
-  flex-basis: 50%;
-}
-.container {
-  display: flex;
 }
 
+/******************************************
+/* NAV
+/*******************************************/
+ul {
+  flex-basis: 50%;
+}
+
+/******************************************
+/* MAIN
+/*******************************************/
+.welcome {
+  flex-basis: 100%;
+  justify-content: flex-start;
+}
+
+.mainFeature,
+.mainSecondary {
+  flex-wrap: wrap;
+  flex-basis: 50%;
+  justify-content: space-evenly;
+}
+
+.mainFeature,
+.mainSecondary section {
+  background: lightblue;
+  border: 1px solid black;
+}
+
+/******************************************
+/* FEATURED
+/*******************************************/
+.featuredCategory {
+  flex-basis: 100%;
+}
+
+.featureStories section {
+  flex-basis: 33.33%;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
