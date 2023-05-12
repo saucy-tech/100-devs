@@ -20,7 +20,6 @@
 /******************************************
 /* BASE STYLES
 /*******************************************/
-
 body * {
   font-family: "Roboto", sans-serif;
   color: black;
@@ -28,57 +27,183 @@ body * {
 
 li {
   list-style: none;
+  font-weight: 600;
 }
 
 a {
   text-decoration: none;
 }
 
-main {
+main,
+.order-online,
+.testimonials {
   background: rgb(241, 247, 250);
 }
 
+.section-name {
+  font-size: 1.1rem;
+  color: orange;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2.8rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
 /******************************************
 /* NAV BAR
 /*******************************************/
 
 nav {
   display: flex;
-  height: 500px;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  gap: 50px;
+  padding: 0 5%;
 }
 
 .main-nav,
 .main-nav-icons {
-  width: 50%;
-  height: 50px;
-  background-color: lightgray;
-  color: white;
-  margin: 0;
-  padding: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
 }
 
-/* nav a {
-  height: auto;
-  font-size: 0.75rem;
+nav a {
+  font-size: 0.8rem;
   font-weight: 600;
-} */
+}
+
 /******************************************
 /* MAIN
 /*******************************************/
-
-main h1 {
-  padding: 8% 0 1% 5%;
-  margin: 0;
-}
-
-main form {
+main h1,
+.home-search,
+.socials {
   padding-left: 5%;
 }
 
-.socials li {
-  font-weight: 600;
-  float: left;
-  padding: 0 2%;
+main button {
+  background: orange;
+  color: white;
+  padding: 5px 8px;
+  font-size: 0.8rem;
+}
+
+.socials {
+  display: flex;
+  gap: 50px;
+  padding-bottom: 5%;
+}
+
+.facebook {
+  list-style-image: gg-facebook;
+}
+
+/******************************************
+/* ABOUT US
+/*******************************************/
+.about-us {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 5% 20% 5% 30%;
+}
+
+.about-us a {
+  background: orange;
+  color: white;
+  padding: 5px 8px;
+  font-size: 0.8rem;
+}
+
+.order-online {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  padding: 5% 0;
+}
+
+.menus {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 15px;
+  padding: 0;
+}
+
+.menus a {
+  padding-bottom: 5px;
+  border-bottom: 1px solid grey;
+}
+
+.menus a:hover {
+  border-bottom: 1px solid orange;
+  color: orange;
+}
+
+.food-pics {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: space-evenly;
+  gap: 15px;
+  text-align: center;
+}
+
+.food-pics img {
+  flex-basis: 20%;
+  height: 150px;
+  border: 1px solid grey;
+}
+
+.book-table {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  text-align: center;
+  padding: 5% 0;
+}
+
+.hours {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 25px;
+  text-align: center;
+  justify-content: center;
+  padding: 3% 0;
+}
+
+.mon-tue,
+.fri-sun {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 15px;
+}
+
+video {
+  padding: 3% 0;
+  border: 1px solid grey;
+  height: 5%;
+  width: 60%;
+}
+
+.testimonials {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  padding: 5% 15%;
+  text-align: center;
 }
 
 /******************************************
