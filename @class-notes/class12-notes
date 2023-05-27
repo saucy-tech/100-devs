@@ -7,7 +7,7 @@
 
 - [ ] Read and do tasks [Javascript.info variables](https://javascript.info/variables)
 - [ ] Read & do tasks [Javascript.info functions](https://javascript.info/function-basics)
-- [ ] Delete the JS and do it again for all assignments in class (picker, calculator, angry parent, etc)
+- [ ] Delete the JS class materials and redo it, add new function
 - [ ] Plan out your networking!
 
 ---
@@ -18,10 +18,22 @@
 
 ## **Notes**
 
-### tbd
+### JavaScript Variables
 
--
+- Decleration + Assignment
+- Conventions: camelCase
 
-```css
-
+```js
+let locationOfPerson = "Boston";
 ```
+
+### Data Types
+
+- Strings
+- Integers
+- Float
+
+### Arithmetic
+
+- modulus %
+- add +, subtract -, multiply \*, divide /
