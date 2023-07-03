@@ -36,6 +36,7 @@ a {
 
 h1 {
   font-size: 2rem;
+  margin: 0;
 }
 h2 {
   font-size: 1.75rem;
@@ -58,19 +59,29 @@ nav,
   align-items: center;
 }
 
-.main-nav-logo,
-.main-nav-action {
-  margin: 16px 0;
-}
-
 /******************************************
 /* MAIN FEATURE
 /*******************************************/
 
-.main-feature {
-  background-color: azure;
+.main {
+  background-color: rgb(164, 165, 165);
+  color: white;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
 }
 
+.main-feature {
+}
+
+.main-side {
+  writing-mode: vertical-rl;
+}
+
+.main-feature span {
+  background-color: #000000;
+  padding: 1.25rem;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
