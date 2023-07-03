@@ -5,16 +5,16 @@
 
 /* Clear fix hack */
 .clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
 }
 
 .clear {
-	clear: both;
+  clear: both;
 }
 
 /******************************************
@@ -22,19 +22,53 @@
 /*******************************************/
 
 body {
-
+  font-family: "Merriweather", serif;
 }
 
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.75rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+h4 {
+  font-size: 1.25rem;
+}
 
 /******************************************
-/* LAYOUT
+/* NAV BAR
 /*******************************************/
-header {
-
+nav,
+.main-nav-pages {
+  display: flex;
+  gap: 50px;
+  justify-content: space-around;
+  align-items: center;
 }
 
-footer {
+.main-nav-logo,
+.main-nav-action {
+  margin: 16px 0;
+}
 
+/******************************************
+/* MAIN FEATURE
+/*******************************************/
+
+.main-feature {
+  background-color: azure;
 }
 
 /******************************************
