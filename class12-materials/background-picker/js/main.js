@@ -19,6 +19,6 @@ function partyBlue() {
 }
 
 function partyOrange() {
-  document.querySelector("body").style.backgroundColor = "rgba(0,000,000)";
-  document.querySelector("body").style.color = "rgba(0,000,000)";
+  document.querySelector("body").style.backgroundColor = "orange";
+  document.querySelector("body").style.color = "white";
 }

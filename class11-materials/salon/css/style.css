@@ -67,20 +67,27 @@ nav,
   background-color: rgb(164, 165, 165);
   color: white;
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
   justify-content: space-around;
 }
 
 .main-feature {
+  padding: 3% 0 0 15%;
+  display: flex;
+  flex-flow: column wrap;
 }
 
 .main-side {
   writing-mode: vertical-rl;
+  padding-right: 1%;
+  text-align: center;
 }
 
 .main-feature span {
   background-color: #000000;
-  padding: 1.25rem;
+  height: 50px;
+  width: 200px;
+  text-align: center;
 }
 /******************************************
 /* ADDITIONAL STYLES

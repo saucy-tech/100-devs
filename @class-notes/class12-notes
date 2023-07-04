@@ -2,12 +2,14 @@
 
 ## **Homework**
 
-- [ ] Build "Salon"
+- [x] Build "Salon"
 - [ ] Play [Flexbox Zombies](https://mastery.games/flexboxzombies/)
-- [ ] Watch video 12 [45min mark](https://www.youtube.com/watch?v=_A20kVsaqIk)
+- [x] Watch [video 12](https://www.youtube.com/watch?v=_A20kVsaqIk)
 - [ ] Read & do do tasks [JS Variables](https://javascript.info/variables)
 - [ ] Read & do tasks [JS Functions](https://javascript.info/function-basics)
-- [ ] Delete the JS class materials and redo it, add new function
+- [ ] Add a 4th founction to background-picker main.js
+- [ ] Redo main.js until you don't need to look at an example
+- [ ] Create class-weekend-boring function, add result to page and make not case sensitive
 
 ---
 
@@ -21,6 +23,9 @@
 
 - Decleration + Assignment
 - Conventions: camelCase
+- const vs let
+  - const = constant, not reassignable
+  - let = can be reassigned
 
 ```js
 let locationOfPerson = "Boston";
@@ -36,3 +41,40 @@ let locationOfPerson = "Boston";
 
 - modulus %
 - add +, subtract -, multiply \*, divide /
+
+### Common functions
+
+```js
+document.getElementById('id').onclick = myFunc
+
+function myFunc() {
+    document.querySelector('body').style.backgroundColor = 'rgba(241,63,247,1)
+    document.querySelector('body').style.color = 'white'
+}
+```
+
+### Operators
+
+== equal to
+=== equal to (value + type)
+
+!= not equal
+!=== not equal to (value + type)
+
+> greater than
+> < less than
+> = greathen than or equal
+> <= less than or equal
+
+&& and
+|| or
+
+### Conditionals
+
+if(condition is true) {
+//do funcs
+}else if(condition is true) {
+//do other funcs
+}else{
+//do this func
+}
