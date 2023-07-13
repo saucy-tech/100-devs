@@ -15,4 +15,11 @@
 
 ## **Notes**
 
-### Section holder
+### String Literals (template literal)
+
+- If you use ticks you can use a special syntax to inject a variable into a string.
+- Syntax is ${variableName}
+
+```js
+`${fName} ${fMidName} ${lMidName} ${lname}`;
+```

@@ -1,19 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-    	<meta charset="utf-8">
-    	<meta name="description" content="This is where your description goes">
-    	<meta name="keywords" content="one, two, three">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="This is where your description goes" />
+    <meta name="keywords" content="one, two, three" />
 
-		<title>Title in the tab</title>
+    <title>Title in the tab</title>
 
-		<!-- external CSS link -->
-		<link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/style.css">
-	</head>
-	<body>
-		
+    <!-- external CSS link -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h1>Temp Converter</h1>
 
-		<script type="text/javascript" src="js/main.js"></script>
-	</body>
+    <form>
+      <label for="c"> Celsius: </label>
+      <input id="c" type="text" placeholder="Enter temp in C" />
+    </form>
+
+    <button id="convert" type="button" name="button">Convert</button>
+
+    <h2 id="f"></h2>
+
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
 </html>
