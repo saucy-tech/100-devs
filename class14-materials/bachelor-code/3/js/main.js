@@ -1,13 +1,15 @@
-const contestants = document.querySelectorAll(".contestant");
+//click contestant and get the photo or popup with wrong
 
-Array.from(contestants).forEach((element) =>
-  element.addEventListener("click", checkForRose)
+//create an array of contestants
+Array.from(document.querySelectorAll(".contestant")).forEach((Element) =>
+  Element.addEventListener("click", checkForRose)
 );
 
+//function to show rose
 function checkForRose(click) {
   if (click.target.classList.contains("rose")) {
     document.querySelector("#nikki").classList.toggle("hidden");
   } else {
-    alert("Wrong!");
+    alert("wrong!");
   }
 }

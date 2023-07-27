@@ -1,25 +1,27 @@
-const andi = document.querySelector("#andi");
-const claire = document.querySelector("#claire");
-const sharleen = document.querySelector("#sharleen");
+//goal: show photo of only the clicked contestant
 
-document.querySelector("#andiNext").addEventListener("click", andiNext);
-document.querySelector("#claireNext").addEventListener("click", claireNext);
-document.querySelector("#sharleenNext").addEventListener("click", sharleenNext);
+//add event listeners for each contestant
+document.querySelector("#andiNext").addEventListener("click", andiPhoto);
+document.querySelector("#claireNext").addEventListener("click", clairePhoto);
+document
+  .querySelector("#sharleenNext")
+  .addEventListener("click", sharleenPhoto);
 
-function andiNext() {
-  claire.classList.add("hidden");
-  sharleen.classList.add("hidden");
-  andi.classList.toggle("hidden");
+//functions for each contestant
+function andiPhoto() {
+  document.querySelector("#andi").classList.toggle("hidden");
+  document.querySelector("#claire").classList.add("hidden");
+  document.querySelector("#sharleen").classList.add("hidden");
 }
 
-function claireNext() {
-  sharleen.classList.add("hidden");
-  andi.classList.add("hidden");
-  claire.classList.toggle("hidden");
+function clairePhoto() {
+  document.querySelector("#andi").classList.add("hidden");
+  document.querySelector("#claire").classList.toggle("hidden");
+  document.querySelector("#sharleen").classList.add("hidden");
 }
 
-function sharleenNext() {
-  andi.classList.add("hidden");
-  claire.classList.add("hidden");
-  sharleen.classList.toggle("hidden");
+function sharleenPhoto() {
+  document.querySelector("#andi").classList.add("hidden");
+  document.querySelector("#claire").classList.add("hidden");
+  document.querySelector("#sharleen").classList.toggle("hidden");
 }
