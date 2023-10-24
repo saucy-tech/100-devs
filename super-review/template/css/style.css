@@ -1,42 +1,46 @@
 /* Box Model Hack */
 * {
-     -moz-box-sizing: border-box;
+  -moz-box-sizing: border-box;
 }
 
 /* Clear fix hack */
 .clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
 }
 
 .clear {
-	clear: both;
+  clear: both;
 }
 
 /******************************************
 /* BASE STYLES
 /*******************************************/
-
-body {
-
+html {
+  font-size: 10px;
 }
-
+body {
+}
 
 /******************************************
 /* LAYOUT
 /*******************************************/
 header {
-
+  font-size: 2rem;
 }
 
 footer {
-
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+@media all and (max-width: 600px) {
+  section {
+    background: blue;
+  }
+}
